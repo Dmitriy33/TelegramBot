@@ -16,7 +16,7 @@
     "    now = datetime.datetime.now()\n",
     "\n",
     "    def __init__(self, token):\n",
-    "        self.token = token\n",
+    "        self.token = '1158827389:AAEpk04wQa3_9YTzzqd20tDNOBImH0ctngo'\n",
     "        self.api_url = \"https://api.telegram.org/bot{}/\".format(token)\n",
     "\n",
     "    def get_updates(self, timeout=30):\n",
